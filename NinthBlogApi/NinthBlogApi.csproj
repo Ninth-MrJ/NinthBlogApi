@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\NINTH\Desktop\Dot Net Core Code\NinthBlogApi\NinthBlogApi\NinthBlogApi.xml</DocumentationFile>
-    <OutputPath>C:\Users\NINTH\Desktop\Dot Net Core Code\NinthBlogApi\NinthBlogApi\NinthBlogApi.xml</OutputPath>
+    <DocumentationFile></DocumentationFile>
+    <OutputPath></OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
