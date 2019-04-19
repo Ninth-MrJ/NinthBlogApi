@@ -4,6 +4,11 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\NINTH\Desktop\Dot Net Core Code\NinthBlogApi\NinthBlogApi\NinthBlogApi.xml</DocumentationFile>
+    <OutputPath>C:\Users\NINTH\Desktop\Dot Net Core Code\NinthBlogApi\NinthBlogApi\NinthBlogApi.xml</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
