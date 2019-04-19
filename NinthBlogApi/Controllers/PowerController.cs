@@ -46,5 +46,18 @@ namespace NinthBlogApi.Controllers
         public void Delete(int id)
         {
         }
+
+        // DELETE api/values/5
+        [HttpOptions("{id}")]
+        public void Deletedesc(int id)
+        {
+        }
+
+        // DELETE api/values/5
+        [HttpOptions("{id12}")]
+        public void Deletedescer(int id)
+        {
+        }
+
     }
 }

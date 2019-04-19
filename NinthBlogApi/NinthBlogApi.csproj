@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
-    <OutputPath></OutputPath>
+    <DocumentationFile>E:\NinthBlogApi\NinthBlogApi\NinthBlogApi\NinthBlogApi.xml</DocumentationFile>
+    <OutputPath>NinthBlogApi.xml\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

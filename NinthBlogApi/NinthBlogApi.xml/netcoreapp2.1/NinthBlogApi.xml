@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NinthBlogApi</name>
+    </assembly>
+    <members>
+        <member name="M:NinthBlogApi.Controllers.PowerController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NinthBlogApi.Extensions.ApplyTagDescriptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NinthBlogApi.Extensions.ApplyTagDescriptions.Apply(Swashbuckle.AspNetCore.Swagger.SwaggerDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            swagger汉化标签
+            </summary>
+            <param name="swaggerDoc"></param>
+            <param name="context"></param>
+        </member>
+    </members>
+</doc>
